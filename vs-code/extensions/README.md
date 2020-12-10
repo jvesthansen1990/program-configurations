@@ -6,7 +6,7 @@
 - [Azure Terraform](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureterraform)
 - [bicep](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep)
 - [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) 
-    - ![d](.attachements\bracket-colorizer-2.png)
+    - ![d](.attachements/bracket-colorizer-2.png)
 - [Hashicorp Terraform](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform)
 - [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
