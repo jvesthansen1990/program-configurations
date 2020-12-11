@@ -1,22 +1,32 @@
 # Get awesome looking Windows Terminal with icons and colors
 
-## First i would like to thank Anup Aglawe and Jung-Hyun Nam
+*First i would like to thank Anup Aglawe and Jung-Hyun Nam for being the inspiration for this guide. It is mostly made so i can re-create configurations on other computers. But if anyone wants the same look as me feel free do what i have done.*
 
-## pre-requisites
+**Also Check out Anup Aglawe and Jung-Hyun Nam's guides here:**
 
-### Chocolatey:
+[Beautify your Windows Terminal 🦄](https://dev.to/anupa/beautify-your-windows-terminal-1la8) - *by Anup Aglawe*
+
+[Make Your PowerShell 7 Truly Powerful](https://medium.com/rkttu/make-your-powershell-7-truly-powerful-eb56b3fbe37f) - *by Jung-Hyun Nam*
+
+## Prerequisites:
+
+### <ins>Chocolatey:</ins>
 To install chocolatey on Windows with **PowerShell** use the following command:
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-### Install specific Cascadia Code PL with chocolatey 
+### <ins>Install specific Cascadia Code PL with chocolatey</ins>
 
 ```
 choco install cascadiacodepl
 ```
 
-<em>alternatively install all Cascadia Font</em>
+
+
+alternatively install all Cascadia Font
+
+
 
 ```
 choco install cascadiafonts
@@ -30,7 +40,7 @@ Install-Module posh-git
 Install-Module oh-my-posh
 ```
 
-## <u>Install fzf </u>
+## <ins>Install fzf </ins>
 
 ```
 choco install fzf
@@ -47,7 +57,7 @@ Set-PSReadLineOption -Colors @{ InlinePrediction = '#ff033e'}
 
 
 
-### Customize PowerShell Prompt
+## Customize PowerShell Prompt
 In a PowerShell terminal write run:
 ```
 code $PROFILE
@@ -65,7 +75,7 @@ Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module psfzf
 ```
 
-### <u>Adding Icons Rainbows'n'Unicorns </u>
+### <ins>Adding Icons Rainbows'n'Unicorns<ins>
 
 
 Go to PSModules directoru: **documents\\WindowsPowerShell\\Modules\\oh-my-posh\\newsestVersion\\Themes**
@@ -78,3 +88,9 @@ $sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0x01F984) + [char]::Con
 $sl.PromptSymbols.PromptIndicator = [char]::ConvertFromUtf32(0x01F680) +[char]::ConvertFromUtf32(0x276F)    
 ```
 
+
+```diff
+- red text
++ Green Text
+
+```
