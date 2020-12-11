@@ -1,5 +1,7 @@
 # Get awesome looking Windows Terminal with icons and colors
 
+## First i would like to thank Anup Aglawe and Jung-Hyun Nam
+
 ## pre-requisites
 
 ### Chocolatey:
@@ -20,7 +22,7 @@ choco install cascadiacodepl
 choco install cascadiafonts
 ```
 
-## <u>Install PowerShell Modules </u>
+## <ins>Install PowerShell Modules</ins>
 Open a PowerShell windows and run the following commands to install the needed modules:
 ```
 Install-Module psfzf
