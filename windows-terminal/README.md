@@ -1,3 +1,6 @@
+# Do you want your Windows Terminal to look like this, and have the features shown in the below pictures???
+
+
 # Get awesome looking Windows Terminal with icons and colors
 
 *First i would like to thank Anup Aglawe and Jung-Hyun Nam for being the inspiration for this guide. It is mostly made so i can re-create configurations on other computers. But if anyone wants the same look as me feel free do what i have done.*
