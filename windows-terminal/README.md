@@ -71,7 +71,7 @@ Microsoft.PowerShell_profile.ps1
 Import-Module 'posh-git'
 Import-Module 'oh-my-posh'
 Set-Prompt
-Set-Theme Paradox
+Set-PoshPrompt -Theme Paradox
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module psfzf
