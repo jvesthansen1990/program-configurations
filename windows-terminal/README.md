@@ -37,9 +37,9 @@ choco install cascadiafonts
 ## <ins>Install PowerShell Modules</ins>
 Open a PowerShell windows and run the following commands to install the needed modules:
 ```powershell
-Install-Module 'psfzf'
-Install-Module 'posh-git'
-Install-Module 'oh-my-posh'
+Install-Module 'psfzf' -Scope Allusers
+Install-Module 'posh-git' -Scope Allusers
+Install-Module 'oh-my-posh' -Scope Allusers
 ```
 
 ## <ins>Install fzf </ins>
@@ -51,7 +51,7 @@ choco install fzf
 ## <u>PowerShell Intellisense </u>
 powershell predictive intellisense
 https://devblogs.microsoft.com/powershell/announcing-psreadline-2-1-with-predictive-intellisense/
-Install-Module PSReadLine -RequiredVersion 2.1.0
+Install-Module PSReadLine -RequiredVersion 2.1.0 -Scope Allusers
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -Colors @{ InlinePrediction = '#2F7004'}
 Set-PSReadLineOption -Colors @{ InlinePrediction = '#ff033e'}
@@ -71,7 +71,7 @@ Microsoft.PowerShell_profile.ps1
 Import-Module 'posh-git'
 Import-Module 'oh-my-posh'
 Set-Prompt
-Set-Theme Paradox
+Set-PoshPrompt -Theme Paradox
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module psfzf
