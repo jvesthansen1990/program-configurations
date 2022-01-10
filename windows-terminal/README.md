@@ -18,21 +18,9 @@ To install chocolatey on Windows with **PowerShell** use the following command:
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-### <ins>Install specific Cascadia Code PL with chocolatey</ins>
+### <ins>Install specific CaskaydiaCove Nerd Fonts</ins>
+Download and install [CaskaydiaCove Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete.otf)
 
-```
-choco install cascadiacodepl
-```
-
-
-
-alternatively install all Cascadia Fonts
-
-
-
-```
-choco install cascadiafonts
-```
 
 ## <ins>Install PowerShell Modules</ins>
 Open a PowerShell windows and run the following commands to install the needed modules:
@@ -59,7 +47,7 @@ Set-PSReadLineOption -Colors @{ InlinePrediction = '#ff033e'}
 
 
 
-## Customize PowerShell Prompt
+## Customize PowerShell Prompt to load theme and have intellisense
 In a PowerShell terminal write run:
 ```powershell
 code $PROFILE
@@ -70,29 +58,16 @@ Microsoft.PowerShell_profile.ps1
 ```powershell
 Import-Module 'posh-git'
 Import-Module 'oh-my-posh'
-Set-Prompt
-Set-PoshPrompt -Theme Paradox
+Set-PoshPrompt -Theme jtracey93
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 Import-Module psfzf
-```
+# Override PSReadLine's history search
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' `
+                -PSReadlineChordReverseHistory 'Ctrl+r'
 
-### <ins>Adding Icons Rainbows'n'Unicorns<ins>
-
-
-Go to PSModules directoru: **documents\\WindowsPowerShell\\Modules\\oh-my-posh\\newsestVersion\\Themes**
-
-Open the **Paradox** file, and scroll down to the bottom and update the following lines.
-
-```
-$sl.PromptSymbols.StartSymbol = [char]::ConvertFromUtf32(0x01F984) + [char]::ConvertFromUtf32(0x0001F525) + ' '
-
-$sl.PromptSymbols.PromptIndicator = [char]::ConvertFromUtf32(0x01F680) +[char]::ConvertFromUtf32(0x276F)    
-```
-
-
-```diff
-- red text
-+ Green Text
-
+# Enable intellisense
+Set-PSReadLineOption -PredictionSource History
+# Override default tab completion
+Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
 ```
