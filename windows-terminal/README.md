@@ -68,6 +68,5 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' `
 
 # Enable intellisense
 Set-PSReadLineOption -PredictionSource History
-# Override default tab completion
-Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
+Set-PSReadLineOption -PredictionViewStyle InlineView
 ```
