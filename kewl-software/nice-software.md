@@ -1,0 +1,20 @@
+# Nice software/tools
+
+- zoomit
+  - Good for quick drawing during online meetings
+- Windows Terminal
+  - Does not need any introduction
+- Azure CLI
+- Chocolatey
+- Terraform
+- notepad ++
+- Driver Booster is good for installing drivers
+- Chrome Browser
+- Foxit PDF reader
+- git
+- VS Code
+- Discord
+- VLC
+- TreeSizeFree
+- Greenshot or snagit
+- ninite.com for installing a bunch of software
