@@ -18,3 +18,6 @@
 - TreeSizeFree
 - Greenshot or snagit
 - ninite.com for installing a bunch of software
+- Windows PowerToys
+- WinMerge
+- PowerShell 7
