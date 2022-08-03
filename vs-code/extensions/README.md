@@ -11,4 +11,4 @@
 - [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 - [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
-
+- [Setup Kubernetes YAML intellisense in VS Code](https://blog.gripdev.xyz/2017/11/09/autocomplete-kubernetes-yaml-files-in-vscode/)
