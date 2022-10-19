@@ -21,3 +21,9 @@
 - Windows PowerToys
 - WinMerge
 - PowerShell 7
+- Docker Desktop
+- Lens
+  - Kubernetes
+- Postman
+  - API
+- 
