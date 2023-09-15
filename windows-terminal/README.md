@@ -33,7 +33,7 @@ Install-Module 'oh-my-posh' -Scope Allusers -Repository PSGallery -Force
 ## <ins>Install fzf </ins>
 
 ```
-choco install fzf
+choco install fzf -y
 ```
 
 ## <u>PowerShell Intellisense </u>
