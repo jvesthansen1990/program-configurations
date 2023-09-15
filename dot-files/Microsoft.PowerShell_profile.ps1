@@ -1,14 +1,13 @@
-# Import-Module posh-git
-# Import-Module oh-my-posh
+# Set Posh-Theme
+oh-my-posh init pwsh --config 'C:\Users\jvest\AppData\Local\Programs\oh-my-posh\themes\unicorn.omp.json' | Invoke-Expression
 
-# makes very nice ctrl+r search menu
-# Import-Module psfzf
+Import-Module posh-git
 
 Remove-PSReadlineKeyHandler 'Ctrl+r'
 Remove-PSReadlineKeyHandler 'Ctrl+t'
 
-# Set Posh theme
-# Set-Theme Paradox
+# makes very nice ctrl+r search menu
+Import-Module psfzf
 
 # Gives command suggestions based on history
 Set-PSReadLineOption -PredictionSource History

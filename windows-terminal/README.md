@@ -27,8 +27,12 @@ Open a PowerShell windows and run the following commands to install the needed m
 ```powershell
 Install-Module 'psfzf' -Scope Allusers -Repository PSGallery -Force
 Install-Module 'posh-git' -Scope Allusers -Repository PSGallery -Force
-Install-Module 'oh-my-posh' -Scope Allusers -Repository PSGallery -Force
 ```
+
+## <ins>Install oh-my-posh<ins>
+- Go to the documentation for oh-my-posh to install oh-my-posh
+  - Currently the command in PowerShell is the following:
+    - `winget install JanDeDobbeleer.OhMyPosh -s winget`
 
 ## <ins>Install fzf </ins>
 
