@@ -25,9 +25,9 @@ Download and install [CaskaydiaCove Nerd Fonts](https://github.com/ryanoasis/ner
 ## <ins>Install PowerShell Modules</ins>
 Open a PowerShell windows and run the following commands to install the needed modules:
 ```powershell
-Install-Module 'psfzf' -Scope Allusers
-Install-Module 'posh-git' -Scope Allusers
-Install-Module 'oh-my-posh' -Scope Allusers
+Install-Module 'psfzf' -Scope Allusers -Repository PSGallery -Force
+Install-Module 'posh-git' -Scope Allusers -Repository PSGallery -Force
+Install-Module 'oh-my-posh' -Scope Allusers -Repository PSGallery -Force
 ```
 
 ## <ins>Install fzf </ins>
