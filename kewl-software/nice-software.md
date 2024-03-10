@@ -28,3 +28,4 @@
   - API
 - [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
   - For making presentations even better
+  - Short tutorial here: https://www.youtube.com/watch?v=bqmp2z6q8Js&ab_channel=PassionateLearning
