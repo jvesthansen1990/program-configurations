@@ -26,4 +26,5 @@
   - Kubernetes
 - Postman
   - API
-- 
+- [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
+  - For making presentations even better
