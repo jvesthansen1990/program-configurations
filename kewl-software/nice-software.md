@@ -21,6 +21,8 @@
 - Windows PowerToys
 - WinMerge
 - PowerShell 7
+- Pester
+  - To make PowerShell unit tests etc
 - Docker Desktop
 - Lens
   - Kubernetes

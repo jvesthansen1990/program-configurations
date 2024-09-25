@@ -38,7 +38,8 @@ $packages_to_install = $('git',
                          'treesizefree',
                          'powertoys',
                          'microsoft-windows-terminal',
-                         'powershell-core')
+                         'powershell-core',
+                         'pester')
 
 # Install all packages
 ForEach ($package_name in $packages_to_install)
