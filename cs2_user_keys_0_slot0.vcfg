@@ -1,0 +1,22 @@
+"config"
+{
+	"bindings"
+	{
+		"`"		"toggleconsole"
+		"v"		"+voicerecord"
+		"MOUSE4"		"sv_cheats 1; noclip"
+		"4"		"slot4"
+		"6"		"<unbound>"
+		"7"		"<unbound>"
+		"f"		"slot7"
+		"8"		"<unbound>"
+		"c"		"slot8"
+		"0"		"<unbound>"
+		"t"		"slot10"
+		"i"		"+lookatweapon"
+		"MOUSE1"		"+attack"
+		"MWHEELDOWN"		"<unbound>"
+		"MWHEELUP"		"<unbound>"
+		"p"		"setpos -1166.066162 -898.974182 -103.968750"
+	}
+}
